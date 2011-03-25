@@ -1,2 +1,5 @@
 dependencies: thrift and pycassa
-pycassa is on a higher level of abstraction than what generates thrift.exe but it still uses cassandra.py and thrift on implementation level
+
+pycassa is on a higher level of abstraction than what generates thrift.exe
+but it still uses cassandra.py and thrift on implementation level
+

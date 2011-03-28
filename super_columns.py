@@ -13,3 +13,6 @@ col_fam.insert( "velaskec", dict( hobby = dict( chess = "master", soccer = "amat
 print col_fam.get( "velaskec" )
 print col_fam.get( "velaskec" )[ 'hobby' ]
 print col_fam.get( "velaskec" )[ 'names' ][ 'fname' ]
+
+print col_fam.get( "velaskec", super_column = 'hobby' )
+print col_fam.get( "velaskec", super_column = 'names',  columns = ['fname'] )

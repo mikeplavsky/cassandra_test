@@ -11,3 +11,5 @@ col_fam = pycassa.ColumnFamily(pool, 'SuperUser')
 col_fam.insert( "velaskec", dict( hobby = dict( chess = "master", soccer = "amateur" ),  names = dict( fname = "Konstantin", lname = "Solomon" ) ) )
 
 print col_fam.get( "velaskec" )
+print col_fam.get( "velaskec" )[ 'hobby' ]
+print col_fam.get( "velaskec" )[ 'names' ][ 'fname' ]

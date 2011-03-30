@@ -6,7 +6,7 @@ col_fam = pycassa.ColumnFamily(pool, 'User')
 
 col_fam.batch_insert( dict( 
     
-    mike = dict( fname = 'Mike', lname = 'Alejandro', sex = 'male'  ),
+    mike = dict( fname = 'Mike', lname = 'Alejandro', sex = 'male', job_title = 'Manager'  ),
     serge = dict( fname = 'Sergey', job_title = 'Developer' ),
     cat = dict( fname = 'Cat', job_title = 'Pet' ) 
     

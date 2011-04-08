@@ -16,6 +16,8 @@ col_fam.batch_insert(dict(
     
  ))
 '''
+
+col_fam.insert( 'Yury', { 'lname' : 'BatMan' } )
     
 print col_fam.get( 'Yury' ).keys()
 print col_fam.get( 'Yury' ) 
